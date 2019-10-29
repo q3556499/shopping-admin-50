@@ -42,6 +42,7 @@ body,html,#app {
     border-radius: 20px;
     position: relative;
     img {
+      width: 140px;
       position: absolute;
       top: -80px;
       left: 50%;
@@ -51,6 +52,9 @@ body,html,#app {
     }
   }
   .reset {
+    margin-left: 80px;
+  }
+  .el-button+.el-button {
     margin-left: 80px;
   }
 }
